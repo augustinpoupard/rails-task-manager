@@ -1,0 +1,10 @@
+
+
+<h1><%=@task.name %></h1>
+
+<p><%=@task.description %></p>
+
+<%= link_to "modifié", edit_task_path%>
+<%= link_to "suppr",task_path, method: :delete %>
+
+
